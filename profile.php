@@ -1,4 +1,6 @@
-<?php $pageTitle = 'Profil - Telkom University'; require 'includes/header.php'; ?> <section class="section">
+<?php $pageTitle = 'Profil - Telkom University';
+require 'includes/header.php'; ?>
+<section class="section">
     <div class="container article-body"> <span class="eyebrow">Profil</span>
         <h1>Tentang proyek simulasi Telkom University</h1>
         <p class="lead">Halaman ini digunakan untuk mempraktikkan struktur halaman PHP yang memakai header dan footer
@@ -12,4 +14,13 @@
         <div class="alert alert-success">Konten institusi pada website ini bersifat simulasi untuk keperluan praktikum.
         </div>
     </div>
-</section> <?php require 'includes/footer.php'; ?>
+</section>
+<section class="fokus-pembelajaran">
+    <h2>Fokus Pembelajaran</h2>
+    <u1>
+        <1i>Pengembangan Aplikasi Web Modern</1i>
+        <1i>Manajemen Database dan Backend PHP</1i>
+        <1i>Penggunaan Version Control dengan Git</1i>
+    </u1>
+</section>
+<?php require 'includes/footer.php'; ?>
