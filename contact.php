@@ -9,11 +9,11 @@ require 'includes/header.php'; ?> <section class="section">
             <?php endif; ?>
         </div>
         <form class="card" action="contact_process.php" method="post">
-            <div class="form-group"> <label for="nama">Nama</label> <input id="nama" name="nama" required
+            <div class="form-group"> <label for="nama">Name</label> <input id="nama" name="nama" required
                     maxlength="100"> </div>
             <div class="form-group"> <label for="email">Email</label> <input id="email" type="email" name="email"
                     required maxlength="120"> </div>
-            <div class="form-group"> <label for="pesan">Pesan</label> <textarea id="pesan" name="pesan" required
+            <div class="form-group"> <label for="pesan">Massage</label> <textarea id="pesan" name="pesan" required
                     maxlength="1000"></textarea> </div> <button class="btn btn-primary" type="submit">Kirim
                 Pesan</button>
         </form>
